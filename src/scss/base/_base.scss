@@ -6,8 +6,28 @@ body {
 	background-color: var(--page-bg);
 	color: var(--text-color);
 	font-family: var(--font-main);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 img {
 	display: block;
+}
+
+.title-1 {
+	color: var(--text-color);
+	font-size: 72px;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.text {
+	color: var(--text-muted);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 150%;
+	p+p{
+		margin: 1em 0 0 0;
+	}
 }
