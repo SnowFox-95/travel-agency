@@ -9,12 +9,16 @@
     align-items: center;
 }
 
-.discover__desc {}
-
 .discover__title {
     margin: 0 0 24px 0;
+    position: relative;
 }
 
+.title-decor {
+    position: absolute;
+    top: 230px;
+    z-index: -1;
+}
 
 
 .discover__text {
