@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Стартовый шаблон</title>
+	<title>"Logoipsum"</title>
 	<link rel="stylesheet" href="./css/main.css" />
 	<link rel="stylesheet" href="./fonts/CircularStd/stylesheet.css">
 </head>
@@ -73,9 +73,19 @@
                 </div>
                 <div class="discover__form">
                     <form action="" class="form">
-    <label for="" class="form__label">LOCATION</label>
-    <label for="" class="form__label">DATE</label>
-    <button class="form__btn">BTN</button>
+    <label for="" class="form__label">
+        <img src="./img/icons/map.svg" alt="" class="form__label-ico">
+        <span>Locations </span>
+        <input id="autocompleteCountry" name="country" type="text" class="form__input" placeholder="e.g Bali, Indonesia"
+            autocomplete="off">
+    </label>
+    <div class="form__devider"></div>
+    <label for="" class="form__label">
+        <img src="./img/icons/calendar.svg" alt="" class="form__label-ico">
+        <span>Date and Time </span>
+        <input type="date" class="form__input" placeholder="MM/DD/YYYY">
+    </label>
+    <button class="form__btn"><img src="./img/icons/search-btn.svg" alt="search-btn"></button>
 </form>
                 </div>
                 <!--  Date and time
