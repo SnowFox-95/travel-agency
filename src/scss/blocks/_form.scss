@@ -1,6 +1,49 @@
 .form {
+    padding: 12px 16px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto;
+    align-items: center;
+    gap: 16px;
 }
+
+.form__devider {
+    height: 24px;
+    width: 1px;
+    background: #909090;
+}
+
 .form__label {
+    padding: 0 0 0 36px;
+
+    display: grid;
+    gap: 8px;
+    position: relative;
+
+    &-ico {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    span {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
 }
-.form__btn {
+
+
+form__input {
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+
+    &::placeholder {
+        color: var(--text-muted)
+    }
 }
+
+.form__btn {}
